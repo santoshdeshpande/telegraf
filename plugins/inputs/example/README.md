@@ -1,12 +1,12 @@
 # Example Input Plugin
 
-The `example` plugin gathers metrics about example things.  This description
+The `example` plugin gathers metrics about example things. This description
 explains at a high level what the plugin does and provides links to where
 additional information can be found.
 
 Telegraf minimum version: Telegraf x.x Plugin minimum tested version: x.x
 
-⭐ Telegraf v1.0.0  <!-- introduction version -->
+⭐ Telegraf v1.0.0 <!-- introduction version -->
 🚩 Telegraf v1.10.0 <!-- deprecation version if any -->
 🔥 Telegraf v1.20.0 <!-- removal version  if any -->
 🏷️ your labels
@@ -47,6 +47,7 @@ more metrics than can reasonably be listed, describe how the input is mapped to
 the output.
 
 - measurement1
+
   - tags:
     - tag1 (optional description)
     - tag2
@@ -67,7 +68,7 @@ the output.
 ## Sample Queries
 
 This section can contain some useful InfluxDB queries that can be used to get
-started with the plugin or to generate dashboards.  For each query listed,
+started with the plugin or to generate dashboards. For each query listed,
 describe at a high level what data is returned.
 
 Get the max, mean, and min for the measurement in the last hour:
@@ -83,7 +84,7 @@ perform.
 
 ## Example Output
 
-This section shows example output in Line Protocol format.  You can often use
+This section shows example output in Line Protocol format. You can often use
 `telegraf --input-filter <plugin-name> --test` or use the `file` output to get
 this information.
 
