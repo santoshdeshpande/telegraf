@@ -38,11 +38,10 @@ func (m *Fanuc) Gather(acc telegraf.Accumulator) error {
 			return err
 		}
 		tags := map[string]string{
-
-		}
-		fields := map[string]interface{}{
 			"machineIp": info.MachineIP,
 			"machineId": info.Id,
+		}
+		fields := map[string]interface{}{
 			"powerOnTime": info.PowerOnTime,
 			"cuttingTime": info.CuttingTime,
 			"operatingTime": info.OperatingTime,
